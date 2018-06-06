@@ -2,6 +2,7 @@
 {
     function ContactContent()
     {
+        console.log("Contact Content Accessed....");
         //document.getElementsByClassName("card-title")[0].textContent = "Contact You";
         
         //Created button
@@ -28,7 +29,7 @@
         //show your host
         console.log(location.host);
         
-        //show your host name
+        //show your host name - domain name
         console.log(location.hostname);
     }
     content.ContactContent = ContactContent;
