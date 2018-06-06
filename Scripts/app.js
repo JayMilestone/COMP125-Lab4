@@ -39,7 +39,7 @@ let app;
                     break;
 
                 case "COMP125 - Contact":
-                    ContactContent();
+                    content.ContactContent();
                     break;
 
                 default:
