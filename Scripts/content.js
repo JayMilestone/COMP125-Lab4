@@ -18,6 +18,18 @@
         });
         // Adds to end of button created
         document.forms[0].appendChild(cancelButton);
+
+        document.title = "Contact";
+
+        history.pushState("", document.title, "/contact");
+
+        // use the location object to output my pathname
+        console.log(location.pathname);
+        //show your host
+        console.log(location.host);
+        
+        //show your host name
+        console.log(location.hostname);
     }
     content.ContactContent = ContactContent;
 })(content || (content = {}));
